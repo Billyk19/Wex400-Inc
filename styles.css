@@ -15,4 +15,15 @@ footer {
 body {
   justify-content: center;
 }
-  
+.neomorphic-button {
+  padding: 15px 30px;
+  font-size: 16px;
+  border-radius: 65px;
+  background-color: #e0e5ec;
+  box-shadow: 8px 8px 15px #a3b1c6, -8px -8px 15px #ffffff;
+  border: none;
+  color: #505780;
+  font-weight: 600;
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
