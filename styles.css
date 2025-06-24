@@ -9,11 +9,11 @@
 }
 footer {
   text-align: center;
-  
-
+  background-color: ;
 }
 body {
-  justify-content: center;
+  text-align: center;
+  background-color: ;
 }
 .neomorphic-button {
   padding: 15px 30px;
@@ -26,9 +26,6 @@ body {
   font-weight: 600;
   transition: all 0.25s ease;
   cursor: pointer;
-}
-body {
-  text-align: center;
 }
 .neomorphic-button2 {
   padding: 15px 30px;
