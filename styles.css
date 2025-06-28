@@ -148,7 +148,6 @@ nav ul li a.active ~ .chain-container .skull {
   font-weight: 60;
   transition: all 0.25s ease;
   cursor: pointer;
-  position: relative;
 }
 .neomorphic-button2 {
   padding: 15px 30px;
