@@ -102,6 +102,23 @@ nav ul li a {
 .skull:hover {
       transform: translateX(-50%) scale(1.5) rotate(360deg);
 }  
+nav ul li a.active {
+      color: #e40000;
+}
+nav ul li a.active::before {
+      width: 100%;
+}
+nav ul li a.active ~ .chain-container {
+      opacity: 1;
+}
+nav ul li a.active ~ .chain-container .skull {
+      transform: translateX(-50%) scale(1);
+      animation: skullFloat 2s infinite ease-in-out, skullGlow 1.5s infinite alternate;
+}
+@keyframes skullGlow {
+      from { filter: drop-shadow(0 0 5px rgba(231, 76, 60, 0.5)); }
+      to { filter: drop-shadow(0 0 15px rgba(231, 76, 60, 0.8)); }
+}
   
 footer {
   text-align: center;
