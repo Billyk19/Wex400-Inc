@@ -129,7 +129,9 @@ nav ul li a.active ~ .chain-container .skull {
       from { filter: drop-shadow(0 0 5px rgba(231, 76, 60, 0.5)); }
       to { filter: drop-shadow(0 0 15px rgba(231, 76, 60, 0.8)); }
 }
-  
+.home-content {
+  position: relative;
+}
 footer {
   text-align: center;
   background-color: ;
