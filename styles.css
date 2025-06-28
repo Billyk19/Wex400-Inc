@@ -46,7 +46,7 @@ nav ul li a {
       letter-spacing: 1px;
 }
 nav ul li a::before {
-      content: '🕊️';
+      content: '';
       position: absolute;
       width: 0;
       height: 2px;
@@ -133,6 +133,10 @@ nav ul li a.active ~ .chain-container .skull {
   position: relative;
   margin-top: 30%;
 }
+.home-content h1 {
+  text-align: center;
+  font-size: 60%;
+}
 .neomorphic-button {
   padding: 3% 6%;
   font-size: 20%;
@@ -144,7 +148,7 @@ nav ul li a.active ~ .chain-container .skull {
   font-weight: 60;
   transition: all 0.25s ease;
   cursor: pointer;
-  position: absolute;
+  position: relative;
 }
 .neomorphic-button2 {
   padding: 15px 30px;
