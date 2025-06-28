@@ -139,7 +139,7 @@ footer {
 .neomorphic-button {
   padding: 3% 6%;
   font-size: 20%;
-  border-radius: 65%;
+  border-radius: 35%;
   background-color: #e0e5ec;
   box-shadow: 8px 8px 15px #a3b1c6, -8px -8px 15px #ffffff;
   border: none;
@@ -147,6 +147,7 @@ footer {
   font-weight: 600;
   transition: all 0.25s ease;
   cursor: pointer;
+  position: relative;
 }
 .neomorphic-button2 {
   padding: 15px 30px;
