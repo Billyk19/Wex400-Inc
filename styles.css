@@ -61,6 +61,48 @@ nav ul li a {
       25% { transform: translateX(-3px); }
       75% { transform: translateX(3px); }
 }
+.chain-container {
+      position: absolute;
+      left: 50%;
+      bottom: -45px;
+      transform: translateX(-50%);
+      height: 50px; /* Increased height to accommodate skull */
+      /* overflow: hidden; */
+      opacity: 0;
+      transition: opacity 0.3s ease;
+}
+.chain {
+      position: relative; 
+      height: 100%;
+      width: 2px;
+      background: linear-gradient(to bottom, #8e44ad, #e74c3c);
+      margin: 0 auto;
+}
+.chain-link {
+      position: absolute;
+      width: 8px;
+      height: 8px;
+      background-color: #8e44ad;
+      border-radius: 50%;
+      left: -3px;
+      transition: transform 0.3s;
+}
+.skull {
+      position: absolute;
+      bottom: -20px;
+      left: 50%;
+      transform: translateX(-50%) scale(0);
+      font-size: 20px;
+      color: #e40000;
+      transition: all 0.3s ease;
+      cursor: pointer;
+      z-index: 1; /* Ensure skull appears above other elements */
+      display: block; /* Ensure it's displayed */
+}
+.skull:hover {
+      transform: translateX(-50%) scale(1.5) rotate(360deg);
+}  
+  
 footer {
   text-align: center;
   background-color: ;
