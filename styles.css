@@ -131,15 +131,12 @@ nav ul li a.active ~ .chain-container .skull {
 }
 .home-content {
   position: relative;
-}
-footer {
-  text-align: center;
-  background-color: ;
+  margin-top: 20%;
 }
 .neomorphic-button {
   padding: 3% 6%;
   font-size: 20%;
-  border-radius: 35%;
+  border-radius: 15%;
   background-color: #e0e5ec;
   box-shadow: 8px 8px 15px #a3b1c6, -8px -8px 15px #ffffff;
   border: none;
@@ -147,7 +144,7 @@ footer {
   font-weight: 600;
   transition: all 0.25s ease;
   cursor: pointer;
-  position: relative;
+  position: absolute;
 }
 .neomorphic-button2 {
   padding: 15px 30px;
