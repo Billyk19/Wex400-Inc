@@ -22,10 +22,14 @@ nav {
    justify-content: space-between;
    align-items: center;
    max-width: 1200px;
-   margin: 0 auto;
+   marg: 0 auto;
    padding: 0 20px;
-   background-color:;
-}
+   margin-left: 4%;
+   margin-right: 4%;
+   margin-top: 2%;
+   border: none;
+   border-radius: 30%;
+} 
 nav ul {
   display: grid;
   grid-template-columns: repeat(2,1fr);
