@@ -161,4 +161,13 @@ nav ul li a.active ~ .chain-container .skull {
   transition: all 0.25s ease;
   cursor: pointer;
   }
+  /* My own styling*/
+.right {
+    padding-left: 8%;
+    padding-right: 5%;
+    margin-left: 4%;
+    margin-right: 4%;
+    border: none;
+    border-radius: 8%;
+  }
   
