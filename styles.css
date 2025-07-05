@@ -162,7 +162,7 @@ nav ul li a.active ~ .chain-container .skull {
   cursor: pointer;
   }
   /* My own styling*/
-.right {
+.nav {
     padding-left: 8%;
     padding-right: 5%;
     margin-left: 4%;
